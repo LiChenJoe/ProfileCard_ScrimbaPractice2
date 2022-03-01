@@ -1,7 +1,7 @@
 import React from "react";
 import Photo from "./components/Photo";
-import Main_Contacts from "./components/Main_Contacts";
-import Main_Email from "./components/Main_Email";
+import MainContacts from "./components/MainContacts";
+import MainEmail from "./components/MainEmail";
 import FooterShort from "./components/FooterShort";
 import FooterLong from "./components/FooterLong";
 
@@ -11,28 +11,28 @@ export default function App() {
       <div className="box">
         <div className="card buttonContacts dark">
           <Photo />
-          <Main_Contacts />
+          <MainContacts />
           <FooterShort />
         </div>
       </div>
       <div className="box">
         <div className="card buttonEmail dark">
           <Photo />
-          <Main_Email />
+          <MainEmail />
           <FooterLong />
         </div>
       </div>
       <div className="box">
         <div className="card buttonContacts light">
           <Photo />
-          <Main_Contacts />
+          <MainContacts />
           <FooterShort />
         </div>
       </div>
       <div className="box">
         <div className="card buttonEmail light">
           <Photo />
-          <Main_Email />
+          <MainEmail />
           <FooterLong />
         </div>
       </div>

@@ -11,7 +11,7 @@ export default function Contacts() {
         <h4>Email</h4>
       </button>
       <button className="Linkedin">
-        <FontAwesomeIcon icon={faLinkedin} />
+        <FontAwesomeIcon icon={faLinkedin} color="#fff" />
         <h4>Linkedin</h4>
       </button>
     </div>

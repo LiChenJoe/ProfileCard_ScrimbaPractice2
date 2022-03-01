@@ -9,11 +9,15 @@ export default function FooterShort() {
   return (
     <div className="profile--footer footer--short">
       <button>
-        <FontAwesomeIcon icon={faTwitterSquare} />
+        <FontAwesomeIcon
+          icon={faTwitterSquare}
+          font-size="2rem"
+          color="#918e9b"
+        />
         <h4>Twitter</h4>
       </button>
       <button>
-        <FontAwesomeIcon icon={faGitSquare} />
+        <FontAwesomeIcon icon={faGitSquare} font-size="2rem" color="#918e9b" />
         <h4>GitHub</h4>
       </button>
     </div>

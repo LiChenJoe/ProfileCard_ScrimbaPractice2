@@ -4,7 +4,7 @@ import Pic from "../profile_pic.jpeg";
 export default function Photo() {
   return (
     <div className="profile--photo">
-      <img src={Pic} alt="profile picture goes here" />
+      <img src={Pic} alt="profile pic goes here" />
     </div>
   );
 }
